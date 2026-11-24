@@ -1,6 +1,6 @@
 {
   "name": "@alltcgapi/sdk",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "TypeScript client for the alltcgapi.com trading card game API: cards, sets, sealed products, current prices and price history for 19 games through one key and one response shape.",
   "license": "MIT",
   "type": "module",
