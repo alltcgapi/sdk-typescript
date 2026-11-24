@@ -44,7 +44,7 @@
     "build": "tsc -p tsconfig.json",
     "typecheck": "tsc -p tsconfig.json --noEmit",
     "prepublishOnly": "npm test",
-    "test": "npm run build && tsc -p tsconfig.tests.json && node --test \"tests/*.test.mjs\""
+    "test": "npm run build && tsc -p tsconfig.tests.json && node --test tests/*.test.mjs"
   },
   "devDependencies": {
     "@types/node": "^22.10.7",
