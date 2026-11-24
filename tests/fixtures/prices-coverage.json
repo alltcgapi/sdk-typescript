@@ -1,0 +1,41 @@
+{
+  "status": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "cache-control": "public, max-age=60, s-maxage=300, stale-while-revalidate=600",
+    "x-request-id": "0000000000000000000000000000000f",
+    "etag": "\"c0v3r4g3\""
+  },
+  "body": {
+    "data": [
+      {
+        "game": "lorcana",
+        "source": "CARDMARKET",
+        "cards": 3104,
+        "sealed": 51,
+        "as_of": "2026-11-18"
+      },
+      {
+        "game": "onepiece",
+        "source": "CARDMARKET",
+        "cards": 9420,
+        "sealed": 160,
+        "as_of": "2026-11-18"
+      },
+      {
+        "game": "onepiece",
+        "source": "TCGPLAYER",
+        "cards": 9311,
+        "sealed": 142,
+        "as_of": "2026-11-18"
+      },
+      {
+        "game": "riftbound",
+        "source": "TCGPLAYER",
+        "cards": 1188,
+        "sealed": 13,
+        "as_of": "2026-11-18"
+      }
+    ]
+  }
+}

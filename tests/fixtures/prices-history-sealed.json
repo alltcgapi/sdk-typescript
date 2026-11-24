@@ -1,0 +1,72 @@
+{
+  "status": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "cache-control": "private, max-age=300",
+    "x-request-id": "0000000000000000000000000000001f",
+    "x-credits-cost": "5",
+    "x-quota-limit": "200000",
+    "x-quota-remaining": "199995",
+    "ratelimit-limit": "40",
+    "ratelimit-remaining": "39",
+    "ratelimit-reset": "1",
+    "etag": "\"h1st0ry-box\""
+  },
+  "body": {
+    "data": [
+      {
+        "date": "2026-09-01",
+        "source": "CARDMARKET",
+        "variant": "LOWEST",
+        "language": "en",
+        "condition": null,
+        "printing": null,
+        "region": "EU",
+        "eu_only": false,
+        "price": {
+          "amount": 271.5,
+          "currency": "EUR"
+        }
+      },
+      {
+        "date": "2026-10-01",
+        "source": "CARDMARKET",
+        "variant": "LOWEST",
+        "language": "en",
+        "condition": null,
+        "printing": null,
+        "region": "EU",
+        "eu_only": false,
+        "price": {
+          "amount": 280.0,
+          "currency": "EUR"
+        }
+      },
+      {
+        "date": "2026-11-01",
+        "source": "CARDMARKET",
+        "variant": "LOWEST",
+        "language": "en",
+        "condition": null,
+        "printing": null,
+        "region": "EU",
+        "eu_only": false,
+        "price": {
+          "amount": 289.0,
+          "currency": "EUR"
+        }
+      }
+    ],
+    "meta": {
+      "id": "c4e1a9f3-2d7b-4c5e-8a1f-9b3d6e2c7a15",
+      "kind": "sealed",
+      "from": "2026-09-01",
+      "to": "2026-11-19",
+      "bucket": "month",
+      "count": 3,
+      "truncated": false,
+      "capped": false,
+      "plan_window_days": null
+    }
+  }
+}

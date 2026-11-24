@@ -1,0 +1,105 @@
+{
+  "status": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "cache-control": "public, max-age=300, stale-while-revalidate=3600",
+    "x-request-id": "00000000000000000000000000000010",
+    "etag": "\"pl4ns\""
+  },
+  "body": {
+    "data": [
+      {
+        "code": "FREE",
+        "label": "Free trial",
+        "price_month": {
+          "amount": 0,
+          "currency": "EUR"
+        },
+        "price_year": null,
+        "credits": 800,
+        "renews": false,
+        "daily_cap": 200,
+        "rate_limit_rps": 5,
+        "rate_limit_rpm": 300,
+        "max_keys": 1,
+        "history_days": 7
+      },
+      {
+        "code": "DEVELOPER",
+        "label": "Developer",
+        "price_month": {
+          "amount": 29,
+          "currency": "EUR"
+        },
+        "price_year": {
+          "amount": 290,
+          "currency": "EUR"
+        },
+        "credits": 50000,
+        "renews": true,
+        "daily_cap": null,
+        "rate_limit_rps": 20,
+        "rate_limit_rpm": 1200,
+        "max_keys": 20,
+        "history_days": 90
+      },
+      {
+        "code": "GROWTH",
+        "label": "Growth",
+        "price_month": {
+          "amount": 79,
+          "currency": "EUR"
+        },
+        "price_year": {
+          "amount": 790,
+          "currency": "EUR"
+        },
+        "credits": 200000,
+        "renews": true,
+        "daily_cap": null,
+        "rate_limit_rps": 40,
+        "rate_limit_rpm": 2400,
+        "max_keys": 30,
+        "history_days": null
+      },
+      {
+        "code": "PROFESSIONAL",
+        "label": "Professional",
+        "price_month": {
+          "amount": 149,
+          "currency": "EUR"
+        },
+        "price_year": {
+          "amount": 1490,
+          "currency": "EUR"
+        },
+        "credits": 500000,
+        "renews": true,
+        "daily_cap": null,
+        "rate_limit_rps": 60,
+        "rate_limit_rpm": 3600,
+        "max_keys": 50,
+        "history_days": null
+      },
+      {
+        "code": "ENTERPRISE",
+        "label": "Enterprise",
+        "price_month": null,
+        "price_year": null,
+        "credits": null,
+        "renews": true,
+        "daily_cap": null,
+        "rate_limit_rps": 200,
+        "rate_limit_rpm": 12000,
+        "max_keys": 100,
+        "history_days": null
+      }
+    ],
+    "meta": {
+      "can_checkout": true,
+      "stripe_configured": true,
+      "webhooks_verified": true,
+      "currency": "EUR"
+    }
+  }
+}

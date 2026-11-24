@@ -1,0 +1,100 @@
+{
+  "status": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "cache-control": "private, max-age=300",
+    "x-request-id": "0000000000000000000000000000001e",
+    "x-credits-cost": "5",
+    "x-quota-limit": "800",
+    "x-quota-remaining": "776",
+    "ratelimit-limit": "5",
+    "ratelimit-remaining": "4",
+    "ratelimit-reset": "1",
+    "etag": "\"h1st0ry-op01-001\""
+  },
+  "body": {
+    "data": [
+      {
+        "date": "2026-11-16",
+        "source": "CARDMARKET",
+        "variant": "TREND",
+        "language": "en",
+        "condition": null,
+        "printing": null,
+        "region": "EU",
+        "eu_only": false,
+        "price": {
+          "amount": 0.5,
+          "currency": "EUR"
+        }
+      },
+      {
+        "date": "2026-11-17",
+        "source": "CARDMARKET",
+        "variant": "TREND",
+        "language": "en",
+        "condition": null,
+        "printing": null,
+        "region": "EU",
+        "eu_only": false,
+        "price": {
+          "amount": 0.5,
+          "currency": "EUR"
+        }
+      },
+      {
+        "date": "2026-11-18",
+        "source": "CARDMARKET",
+        "variant": "TREND",
+        "language": "en",
+        "condition": null,
+        "printing": null,
+        "region": "EU",
+        "eu_only": false,
+        "price": {
+          "amount": 0.52,
+          "currency": "EUR"
+        }
+      },
+      {
+        "date": "2026-11-17",
+        "source": "TCGPLAYER",
+        "variant": "MARKET",
+        "language": "en",
+        "condition": null,
+        "printing": "NORMAL",
+        "region": null,
+        "eu_only": false,
+        "price": {
+          "amount": 0.4,
+          "currency": "USD"
+        }
+      },
+      {
+        "date": "2026-11-18",
+        "source": "TCGPLAYER",
+        "variant": "MARKET",
+        "language": "en",
+        "condition": null,
+        "printing": "NORMAL",
+        "region": null,
+        "eu_only": false,
+        "price": {
+          "amount": 0.41,
+          "currency": "USD"
+        }
+      }
+    ],
+    "meta": {
+      "id": "7a3d9e2b-5c1f-4b8a-9e6d-3f2a1c8b7e94",
+      "kind": "card",
+      "from": "2026-11-12",
+      "to": "2026-11-19",
+      "bucket": "day",
+      "count": 5,
+      "truncated": true,
+      "capped": false,
+      "plan_window_days": 7
+    }
+  }
+}

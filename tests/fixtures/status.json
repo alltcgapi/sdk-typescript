@@ -1,0 +1,26 @@
+{
+  "status": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "cache-control": "public, max-age=30",
+    "x-request-id": "00000000000000000000000000000012",
+    "etag": "\"st4tus\""
+  },
+  "body": {
+    "data": {
+      "version": "v0.1.0",
+      "refresh": [
+        {
+          "lane": "catalog",
+          "finished_at": "2026-11-19T04:00:12.418Z",
+          "rows": 284512
+        },
+        {
+          "lane": "prices",
+          "finished_at": "2026-11-19T08:06:27.642Z",
+          "rows": 1660353
+        }
+      ]
+    }
+  }
+}

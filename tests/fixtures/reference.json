@@ -1,0 +1,39 @@
+{
+  "status": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "cache-control": "public, max-age=86400",
+    "x-request-id": "00000000000000000000000000000011",
+    "etag": "\"r3f\""
+  },
+  "body": {
+    "data": {
+      "regions": [
+        "WEST",
+        "EAST"
+      ],
+      "locales": [
+        "en",
+        "it",
+        "es",
+        "fr",
+        "de",
+        "ja",
+        "zh",
+        "ko"
+      ],
+      "currencies": [
+        "EUR",
+        "USD",
+        "GBP",
+        "JPY",
+        "CHF"
+      ],
+      "scopes": [
+        "catalog:read",
+        "prices:read",
+        "account:read"
+      ]
+    }
+  }
+}

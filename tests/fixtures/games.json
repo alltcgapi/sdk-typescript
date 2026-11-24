@@ -1,0 +1,152 @@
+{
+  "status": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "cache-control": "public, max-age=60, s-maxage=300, stale-while-revalidate=600",
+    "x-request-id": "00000000000000000000000000000001",
+    "x-credits-cost": "1",
+    "x-quota-limit": "800",
+    "x-quota-remaining": "799",
+    "ratelimit-limit": "5",
+    "ratelimit-remaining": "4",
+    "ratelimit-reset": "1",
+    "etag": "\"g4m3s\""
+  },
+  "body": {
+    "data": [
+      {
+        "id": "battlespirits",
+        "name": "Battle Spirits Saga",
+        "sets": 20,
+        "cards": 1841,
+        "sealed": 0
+      },
+      {
+        "id": "cyberpunk",
+        "name": "Cyberpunk TCG",
+        "sets": 14,
+        "cards": 527,
+        "sealed": 0
+      },
+      {
+        "id": "digimon",
+        "name": "Digimon Card Game",
+        "sets": 104,
+        "cards": 9539,
+        "sealed": 0
+      },
+      {
+        "id": "dragoborne",
+        "name": "Dragoborne: Rise to Supremacy",
+        "sets": 11,
+        "cards": 671,
+        "sealed": 0
+      },
+      {
+        "id": "dragonball-fw",
+        "name": "Dragon Ball Super Card Game Fusion World",
+        "sets": 51,
+        "cards": 4373,
+        "sealed": 0
+      },
+      {
+        "id": "dragonball-masters",
+        "name": "Dragon Ball Super Card Game Masters",
+        "sets": 100,
+        "cards": 11591,
+        "sealed": 0
+      },
+      {
+        "id": "fab",
+        "name": "Flesh and Blood",
+        "sets": 110,
+        "cards": 10809,
+        "sealed": 0
+      },
+      {
+        "id": "fftcg",
+        "name": "Final Fantasy Trading Card Game",
+        "sets": 38,
+        "cards": 5703,
+        "sealed": 0
+      },
+      {
+        "id": "fow",
+        "name": "Force of Will",
+        "sets": 103,
+        "cards": 13733,
+        "sealed": 0
+      },
+      {
+        "id": "gundam",
+        "name": "Gundam Card Game",
+        "sets": 27,
+        "cards": 2201,
+        "sealed": 0
+      },
+      {
+        "id": "lorcana",
+        "name": "Disney Lorcana",
+        "sets": 19,
+        "cards": 3261,
+        "sealed": 56
+      },
+      {
+        "id": "onepiece",
+        "name": "One Piece Card Game",
+        "sets": 111,
+        "cards": 9639,
+        "sealed": 168
+      },
+      {
+        "id": "pokemon",
+        "name": "Pokémon TCG",
+        "sets": 653,
+        "cards": 58481,
+        "sealed": 2098
+      },
+      {
+        "id": "riftbound",
+        "name": "Riftbound",
+        "sets": 8,
+        "cards": 1201,
+        "sealed": 13
+      },
+      {
+        "id": "swdestiny",
+        "name": "Star Wars: Destiny",
+        "sets": 13,
+        "cards": 2238,
+        "sealed": 0
+      },
+      {
+        "id": "swu",
+        "name": "Star Wars: Unlimited",
+        "sets": 32,
+        "cards": 9743,
+        "sealed": 0
+      },
+      {
+        "id": "vanguard",
+        "name": "Cardfight!! Vanguard",
+        "sets": 269,
+        "cards": 26709,
+        "sealed": 0
+      },
+      {
+        "id": "weissschwarz",
+        "name": "Weiss Schwarz",
+        "sets": 171,
+        "cards": 31639,
+        "sealed": 0
+      },
+      {
+        "id": "yugioh",
+        "name": "Yu-Gi-Oh! Trading Card Game",
+        "sets": 125,
+        "cards": 16150,
+        "sealed": 0
+      }
+    ]
+  }
+}

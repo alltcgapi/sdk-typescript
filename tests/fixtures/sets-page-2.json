@@ -1,0 +1,44 @@
+{
+  "status": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "cache-control": "public, max-age=60, s-maxage=300, stale-while-revalidate=600",
+    "x-request-id": "00000000000000000000000000000003",
+    "x-credits-cost": "1",
+    "x-quota-limit": "800",
+    "x-quota-remaining": "797",
+    "ratelimit-limit": "5",
+    "ratelimit-remaining": "4",
+    "ratelimit-reset": "1",
+    "etag": "\"s3ts-2\""
+  },
+  "body": {
+    "data": [
+      {
+        "id": "e6b3d8a1-9c4f-4a2e-8d7b-5f1c3a9e2d60",
+        "game": "onepiece",
+        "code": "OP17-RE",
+        "slug": "the-worlds-strongest-warriors-release-event-cards",
+        "name": "The World's Strongest Warriors Release Event Cards",
+        "region": "WEST",
+        "release_date": "2026-08-21",
+        "total_cards": 4,
+        "printed_cards": null,
+        "image_url": null,
+        "languages": [
+          "en"
+        ],
+        "version": 1,
+        "updated_at": "2026-11-18T22:21:15.182Z"
+      }
+    ],
+    "meta": {
+      "limit": 2,
+      "count": 1,
+      "has_more": false
+    },
+    "links": {
+      "next": null
+    }
+  }
+}

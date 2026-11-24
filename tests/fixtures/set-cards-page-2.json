@@ -1,0 +1,56 @@
+{
+  "status": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "cache-control": "public, max-age=60, s-maxage=300, stale-while-revalidate=600",
+    "x-request-id": "00000000000000000000000000000006",
+    "x-credits-cost": "1",
+    "x-quota-limit": "800",
+    "x-quota-remaining": "794",
+    "ratelimit-limit": "5",
+    "ratelimit-remaining": "4",
+    "ratelimit-reset": "1",
+    "etag": "\"op01-c2\""
+  },
+  "body": {
+    "data": [
+      {
+        "id": "b2e7f4c9-6a1d-4c3b-8f5e-2d9a7c1b4e36",
+        "game": "onepiece",
+        "set": {
+          "id": "2c8e5f1a-7b3d-4a9e-8f2c-6d1b4e7a9c03",
+          "code": "OP01",
+          "name": "Romance Dawn"
+        },
+        "number": "OP01-003",
+        "name": "Monkey.D.Luffy",
+        "rarity": "LEADER",
+        "supertype": null,
+        "attributes": {
+          "types": [
+            "Red",
+            "Green"
+          ]
+        },
+        "image_url": "https://media.alltcgapi.com/cards/onepiece/OP01/OP01-003-normal.webp?e=1764547200&s=Zm9yLWZpeHR1cmVzLW9ubHk",
+        "languages": [
+          "en"
+        ],
+        "external_ids": {
+          "cardmarket": 682345,
+          "tcgplayer": 453419
+        },
+        "version": 1,
+        "updated_at": "2026-11-18T22:21:15.182Z"
+      }
+    ],
+    "meta": {
+      "limit": 2,
+      "count": 1,
+      "has_more": false
+    },
+    "links": {
+      "next": null
+    }
+  }
+}

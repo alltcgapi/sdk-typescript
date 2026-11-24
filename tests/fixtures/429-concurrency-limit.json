@@ -1,0 +1,23 @@
+{
+  "status": 429,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "cache-control": "private, no-store",
+    "x-error-code": "CONCURRENCY_LIMIT",
+    "x-request-id": "0000000000000000000000000000001a",
+    "retry-after": "1",
+    "x-credits-cost": "1",
+    "x-quota-limit": "800",
+    "x-quota-remaining": "612"
+  },
+  "body": {
+    "error": {
+      "code": "CONCURRENCY_LIMIT",
+      "message": "Too many requests in flight: your plan allows 3 at a time.",
+      "details": {
+        "limit": 3
+      },
+      "request_id": "0000000000000000000000000000001a"
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "status": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "cache-control": "public, max-age=60, s-maxage=300, stale-while-revalidate=600",
+    "x-request-id": "00000000000000000000000000000002",
+    "x-credits-cost": "1",
+    "x-quota-limit": "800",
+    "x-quota-remaining": "798",
+    "ratelimit-limit": "5",
+    "ratelimit-remaining": "4",
+    "ratelimit-reset": "1",
+    "etag": "\"s3ts-1\""
+  },
+  "body": {
+    "data": [
+      {
+        "id": "8d4b2e6f-1a3c-4f7e-9b5d-0c2a6e8f4b17",
+        "game": "onepiece",
+        "code": "SD01",
+        "slug": "set-sail-deck-set",
+        "name": "Set Sail Deck Set",
+        "region": "WEST",
+        "release_date": "2026-09-18",
+        "total_cards": 51,
+        "printed_cards": 51,
+        "image_url": "https://media.alltcgapi.com/sets/onepiece/SD01/logo-normal.webp?e=1764547200&s=Zm9yLWZpeHR1cmVzLW9ubHk",
+        "languages": [
+          "en"
+        ],
+        "version": 1,
+        "updated_at": "2026-11-18T22:21:15.182Z"
+      },
+      {
+        "id": "4f9a1c3e-6b2d-4e8a-b7c5-1d3f9e2a6c84",
+        "game": "onepiece",
+        "code": "OP17",
+        "slug": "the-worlds-strongest-warriors",
+        "name": "The World's Strongest Warriors",
+        "region": "WEST",
+        "release_date": "2026-08-22",
+        "total_cards": 121,
+        "printed_cards": 121,
+        "image_url": "https://media.alltcgapi.com/sets/onepiece/OP17/logo-normal.webp?e=1764547200&s=Zm9yLWZpeHR1cmVzLW9ubHk",
+        "languages": [
+          "en"
+        ],
+        "version": 1,
+        "updated_at": "2026-11-18T22:21:15.182Z"
+      }
+    ],
+    "meta": {
+      "limit": 2,
+      "count": 2,
+      "has_more": true
+    },
+    "links": {
+      "next": "https://api.alltcgapi.com/v1/sets?cursor=eyJrIjpbIjIwMjYtMDgtMjIiXSwiaWQiOiI0ZjlhMWMzZS02YjJkLTRlOGEtYjdjNS0xZDNmOWUyYTZjODQiLCJzIjoic2V0czpyZWxlYXNlX2Rlc2MifQ&game=onepiece&limit=2"
+    }
+  }
+}

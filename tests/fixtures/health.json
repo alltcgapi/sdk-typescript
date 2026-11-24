@@ -1,0 +1,14 @@
+{
+  "status": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "cache-control": "private, no-store",
+    "x-request-id": "00000000000000000000000000000013"
+  },
+  "body": {
+    "status": "ok",
+    "db": true,
+    "uptime_s": 86400,
+    "version": "v0.1.0"
+  }
+}

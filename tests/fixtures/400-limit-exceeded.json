@@ -1,0 +1,23 @@
+{
+  "status": 400,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "cache-control": "private, no-store",
+    "x-error-code": "LIMIT_EXCEEDED",
+    "x-request-id": "00000000000000000000000000000015",
+    "x-credits-cost": "10",
+    "x-quota-limit": "800",
+    "x-quota-remaining": "790"
+  },
+  "body": {
+    "error": {
+      "code": "LIMIT_EXCEEDED",
+      "message": "\"limit\" may not exceed 250. Page with the cursor in links.next instead.",
+      "details": {
+        "max": 250,
+        "requested": 500
+      },
+      "request_id": "00000000000000000000000000000015"
+    }
+  }
+}

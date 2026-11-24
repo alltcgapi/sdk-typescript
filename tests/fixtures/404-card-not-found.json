@@ -1,0 +1,22 @@
+{
+  "status": 404,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "cache-control": "private, no-store",
+    "x-error-code": "CARD_NOT_FOUND",
+    "x-request-id": "00000000000000000000000000000018",
+    "x-credits-cost": "1",
+    "x-quota-limit": "800",
+    "x-quota-remaining": "799"
+  },
+  "body": {
+    "error": {
+      "code": "CARD_NOT_FOUND",
+      "message": "No card found with id \"00000000-0000-4000-8000-000000000000\".",
+      "details": {
+        "id": "00000000-0000-4000-8000-000000000000"
+      },
+      "request_id": "00000000000000000000000000000018"
+    }
+  }
+}

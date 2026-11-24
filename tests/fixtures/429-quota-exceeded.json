@@ -1,0 +1,24 @@
+{
+  "status": 429,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "cache-control": "private, no-store",
+    "x-error-code": "QUOTA_EXCEEDED",
+    "x-request-id": "0000000000000000000000000000001b",
+    "retry-after": "43200",
+    "x-credits-cost": "1",
+    "x-quota-limit": "800",
+    "x-quota-remaining": "600"
+  },
+  "body": {
+    "error": {
+      "code": "QUOTA_EXCEEDED",
+      "message": "Daily credit cap reached. It resets at 00:00 UTC.",
+      "details": {
+        "resets_at": "2026-11-20T00:00:00Z",
+        "window": "day"
+      },
+      "request_id": "0000000000000000000000000000001b"
+    }
+  }
+}

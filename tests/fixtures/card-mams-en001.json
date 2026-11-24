@@ -1,0 +1,49 @@
+{
+  "status": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "cache-control": "public, max-age=60, s-maxage=300, stale-while-revalidate=600",
+    "x-request-id": "00000000000000000000000000000009",
+    "x-credits-cost": "1",
+    "x-quota-limit": "800",
+    "x-quota-remaining": "791",
+    "ratelimit-limit": "5",
+    "ratelimit-remaining": "4",
+    "ratelimit-reset": "1",
+    "etag": "\"c4rd-mams-en001\""
+  },
+  "body": {
+    "data": {
+      "id": "9e1c4a27-3b5d-4e8f-a6c1-2d7b9f0e3c58",
+      "game": "yugioh",
+      "set": {
+        "id": "5b2f3c1e-8d4a-4f6b-9c2e-1a7d3e9f0b41",
+        "code": "YGO-MAMS",
+        "name": "Magnificent Maestros"
+      },
+      "number": "MAMS-EN001",
+      "name": "Blue-Eyes White Dragon, the White Phantom Beast",
+      "names": {},
+      "rarity": "Ultra Rare",
+      "supertype": "Effect Monster",
+      "attributes": {
+        "types": [
+          "LIGHT"
+        ],
+        "attack": 3000,
+        "defense": 2500,
+        "monsterType": "Dragon"
+      },
+      "image_url": "https://media.alltcgapi.com/cards/yugioh/YGO-MAMS/MAMS-EN001-normal.webp?e=1764547200&s=Zm9yLWZpeHR1cmVzLW9ubHk",
+      "languages": [
+        "en"
+      ],
+      "external_ids": {
+        "cardmarket": null,
+        "tcgplayer": 662107
+      },
+      "version": 1,
+      "updated_at": "2026-11-18T22:21:15.182Z"
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "status": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "cache-control": "public, max-age=60, s-maxage=300, stale-while-revalidate=600",
+    "x-request-id": "00000000000000000000000000000005",
+    "x-credits-cost": "1",
+    "x-quota-limit": "800",
+    "x-quota-remaining": "795",
+    "ratelimit-limit": "5",
+    "ratelimit-remaining": "4",
+    "ratelimit-reset": "1",
+    "etag": "\"op01-c1\""
+  },
+  "body": {
+    "data": [
+      {
+        "id": "7a3d9e2b-5c1f-4b8a-9e6d-3f2a1c8b7e94",
+        "game": "onepiece",
+        "set": {
+          "id": "2c8e5f1a-7b3d-4a9e-8f2c-6d1b4e7a9c03",
+          "code": "OP01",
+          "name": "Romance Dawn"
+        },
+        "number": "OP01-001",
+        "name": "Roronoa Zoro",
+        "rarity": "LEADER",
+        "supertype": null,
+        "attributes": {
+          "types": [
+            "Red"
+          ]
+        },
+        "image_url": "https://media.alltcgapi.com/cards/onepiece/OP01/OP01-001-normal.webp?e=1764547200&s=Zm9yLWZpeHR1cmVzLW9ubHk",
+        "languages": [
+          "en"
+        ],
+        "external_ids": {
+          "cardmarket": 682343,
+          "tcgplayer": 453417
+        },
+        "version": 1,
+        "updated_at": "2026-11-18T22:21:15.182Z"
+      },
+      {
+        "id": "1f6c8a3d-2e9b-4d7a-a5c3-8b1e4f6d2a79",
+        "game": "onepiece",
+        "set": {
+          "id": "2c8e5f1a-7b3d-4a9e-8f2c-6d1b4e7a9c03",
+          "code": "OP01",
+          "name": "Romance Dawn"
+        },
+        "number": "OP01-002",
+        "name": "Trafalgar Law",
+        "rarity": "LEADER",
+        "supertype": null,
+        "attributes": {
+          "types": [
+            "Red",
+            "Green"
+          ]
+        },
+        "image_url": "https://media.alltcgapi.com/cards/onepiece/OP01/OP01-002-normal.webp?e=1764547200&s=Zm9yLWZpeHR1cmVzLW9ubHk",
+        "languages": [
+          "en"
+        ],
+        "external_ids": {
+          "cardmarket": 682344,
+          "tcgplayer": 453418
+        },
+        "version": 1,
+        "updated_at": "2026-11-18T22:21:15.182Z"
+      }
+    ],
+    "meta": {
+      "limit": 2,
+      "count": 2,
+      "has_more": true
+    },
+    "links": {
+      "next": "https://api.alltcgapi.com/v1/sets/OP01/cards?cursor=eyJrIjpbIk9QMDEtMDAyIl0sImlkIjoiMWY2YzhhM2QtMmU5Yi00ZDdhLWE1YzMtOGIxZTRmNmQyYTc5IiwicyI6ImNhcmRzOm51bWJlciJ9&limit=2"
+    }
+  }
+}

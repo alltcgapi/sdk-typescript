@@ -1,0 +1,21 @@
+[
+  "GET /v1/health",
+  "GET /v1/status",
+  "GET /v1/reference",
+  "GET /v1/billing/plans",
+  "GET /v1/prices/sources",
+  "GET /v1/prices/coverage",
+  "GET /v1/games",
+  "GET /v1/sets",
+  "GET /v1/sets/{id}",
+  "GET /v1/sets/{id}/cards",
+  "GET /v1/cards",
+  "GET /v1/cards/{id}",
+  "GET /v1/sealed",
+  "GET /v1/sealed/{id}",
+  "GET /v1/cards/{id}/prices",
+  "GET /v1/sealed/{id}/prices",
+  "GET /v1/prices/current",
+  "GET /v1/cards/{id}/prices/history",
+  "GET /v1/sealed/{id}/prices/history"
+]

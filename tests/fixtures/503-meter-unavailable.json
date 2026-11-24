@@ -1,0 +1,18 @@
+{
+  "status": 503,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "cache-control": "private, no-store",
+    "x-error-code": "METER_UNAVAILABLE",
+    "x-request-id": "0000000000000000000000000000001c",
+    "x-credits-cost": "1",
+    "x-quota-limit": "800"
+  },
+  "body": {
+    "error": {
+      "code": "METER_UNAVAILABLE",
+      "message": "Usage metering is temporarily unavailable. Retry in a few seconds.",
+      "request_id": "0000000000000000000000000000001c"
+    }
+  }
+}

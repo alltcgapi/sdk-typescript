@@ -1,0 +1,36 @@
+# Releases go through npm trusted publishing (OIDC): no token in the repository. On npmjs.com, in
+# the settings of `@alltcgapi/sdk`: Trusted publisher → GitHub Actions, organization `alltcgapi`,
+# repository `sdk-typescript`, workflow `publish.yml`, environment `npm`. The very first version is
+# published by hand (`npm publish --access public`): a trusted publisher can only be attached to a
+# package that already exists.
+name: Publish
+
+on:
+  push:
+    tags: ['v*']
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment: npm
+    permissions:
+      id-token: write
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          registry-url: 'https://registry.npmjs.org'
+      - name: Tag must match the package version
+        run: |
+          tag="${GITHUB_REF_NAME#v}"
+          version="$(node -p "require('./package.json').version")"
+          code="$(sed -n "s/^export const VERSION = '\(.*\)';$/\1/p" src/version.ts)"
+          if [ "$tag" != "$version" ] || [ "$tag" != "$code" ]; then
+            echo "tag v$tag does not match package.json ($version) and src/version.ts ($code)" >&2
+            exit 1
+          fi
+      - run: npm ci
+      - run: npm test
+      - run: npm publish --access public --provenance

@@ -1,0 +1,23 @@
+{
+  "status": 403,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "cache-control": "private, no-store",
+    "x-error-code": "TRIAL_EXPIRED",
+    "x-request-id": "00000000000000000000000000000017",
+    "x-credits-cost": "2",
+    "x-quota-limit": "800",
+    "x-quota-remaining": "0"
+  },
+  "body": {
+    "error": {
+      "code": "TRIAL_EXPIRED",
+      "message": "Your free trial credits are used up and do not renew. Choose a plan at /v1/billing/plans.",
+      "details": {
+        "plan": "FREE",
+        "plans": "/v1/billing/plans"
+      },
+      "request_id": "00000000000000000000000000000017"
+    }
+  }
+}

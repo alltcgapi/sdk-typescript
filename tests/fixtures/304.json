@@ -1,0 +1,9 @@
+{
+  "status": 304,
+  "headers": {
+    "etag": "W/\"s3ts-1-gzip\"",
+    "cache-control": "public, max-age=60, s-maxage=300, stale-while-revalidate=600",
+    "x-credits-cost": "1"
+  },
+  "body_text": ""
+}

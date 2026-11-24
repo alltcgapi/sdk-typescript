@@ -1,0 +1,61 @@
+{
+  "status": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "cache-control": "public, max-age=60, s-maxage=300, stale-while-revalidate=600",
+    "x-request-id": "0000000000000000000000000000000c",
+    "x-credits-cost": "2",
+    "x-quota-limit": "800",
+    "x-quota-remaining": "787",
+    "ratelimit-limit": "5",
+    "ratelimit-remaining": "4",
+    "ratelimit-reset": "1",
+    "etag": "\"pr1c3s-op01-001\""
+  },
+  "body": {
+    "data": [
+      {
+        "source": "CARDMARKET",
+        "variant": "LOWEST_NEAR_MINT",
+        "language": "en",
+        "condition": "NEAR_MINT",
+        "printing": null,
+        "region": "EU",
+        "eu_only": false,
+        "price": {
+          "amount": 0.35,
+          "currency": "EUR"
+        },
+        "as_of": "2026-11-18"
+      },
+      {
+        "source": "CARDMARKET",
+        "variant": "TREND",
+        "language": "en",
+        "condition": null,
+        "printing": null,
+        "region": "EU",
+        "eu_only": false,
+        "price": {
+          "amount": 0.52,
+          "currency": "EUR"
+        },
+        "as_of": "2026-11-18"
+      },
+      {
+        "source": "TCGPLAYER",
+        "variant": "MARKET",
+        "language": "en",
+        "condition": null,
+        "printing": "NORMAL",
+        "region": null,
+        "eu_only": false,
+        "price": {
+          "amount": 0.41,
+          "currency": "USD"
+        },
+        "as_of": "2026-11-18"
+      }
+    ]
+  }
+}

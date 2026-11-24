@@ -1,0 +1,25 @@
+{
+  "status": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "cache-control": "public, max-age=60, s-maxage=300, stale-while-revalidate=600",
+    "x-request-id": "0000000000000000000000000000000e",
+    "etag": "\"s0urc3s\""
+  },
+  "body": {
+    "data": [
+      {
+        "code": "CARDMARKET",
+        "label": "Cardmarket",
+        "delay_hours": 24,
+        "max_age_days": 90
+      },
+      {
+        "code": "TCGPLAYER",
+        "label": "TCGplayer",
+        "delay_hours": 24,
+        "max_age_days": 90
+      }
+    ]
+  }
+}

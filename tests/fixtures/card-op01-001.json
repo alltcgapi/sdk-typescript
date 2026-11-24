@@ -1,0 +1,48 @@
+{
+  "status": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "cache-control": "public, max-age=60, s-maxage=300, stale-while-revalidate=600",
+    "x-request-id": "00000000000000000000000000000007",
+    "x-credits-cost": "1",
+    "x-quota-limit": "800",
+    "x-quota-remaining": "793",
+    "ratelimit-limit": "5",
+    "ratelimit-remaining": "4",
+    "ratelimit-reset": "1",
+    "etag": "\"c4rd-op01-001\""
+  },
+  "body": {
+    "data": {
+      "id": "7a3d9e2b-5c1f-4b8a-9e6d-3f2a1c8b7e94",
+      "game": "onepiece",
+      "set": {
+        "id": "2c8e5f1a-7b3d-4a9e-8f2c-6d1b4e7a9c03",
+        "code": "OP01",
+        "name": "Romance Dawn"
+      },
+      "number": "OP01-001",
+      "name": "Roronoa Zoro",
+      "names": {
+        "ja": "ロロノア・ゾロ"
+      },
+      "rarity": "LEADER",
+      "supertype": null,
+      "attributes": {
+        "types": [
+          "Red"
+        ]
+      },
+      "image_url": "https://media.alltcgapi.com/cards/onepiece/OP01/OP01-001-normal.webp?e=1764547200&s=Zm9yLWZpeHR1cmVzLW9ubHk",
+      "languages": [
+        "en"
+      ],
+      "external_ids": {
+        "cardmarket": 682343,
+        "tcgplayer": 453417
+      },
+      "version": 1,
+      "updated_at": "2026-11-18T22:21:15.182Z"
+    }
+  }
+}

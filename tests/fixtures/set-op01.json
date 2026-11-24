@@ -1,0 +1,38 @@
+{
+  "status": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "cache-control": "public, max-age=60, s-maxage=300, stale-while-revalidate=600",
+    "x-request-id": "00000000000000000000000000000004",
+    "x-credits-cost": "1",
+    "x-quota-limit": "800",
+    "x-quota-remaining": "796",
+    "ratelimit-limit": "5",
+    "ratelimit-remaining": "4",
+    "ratelimit-reset": "1",
+    "etag": "\"s3t-op01\""
+  },
+  "body": {
+    "data": {
+      "id": "2c8e5f1a-7b3d-4a9e-8f2c-6d1b4e7a9c03",
+      "game": "onepiece",
+      "code": "OP01",
+      "slug": "romance-dawn",
+      "name": "Romance Dawn",
+      "names": {
+        "en": "Romance Dawn",
+        "ja": "ROMANCE DAWN"
+      },
+      "region": "WEST",
+      "release_date": "2022-12-02",
+      "total_cards": 121,
+      "printed_cards": 121,
+      "image_url": "https://media.alltcgapi.com/sets/onepiece/OP01/logo-normal.webp?e=1764547200&s=Zm9yLWZpeHR1cmVzLW9ubHk",
+      "languages": [
+        "en"
+      ],
+      "version": 1,
+      "updated_at": "2026-11-18T22:21:15.182Z"
+    }
+  }
+}

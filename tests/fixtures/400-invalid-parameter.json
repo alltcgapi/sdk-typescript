@@ -1,0 +1,43 @@
+{
+  "status": 400,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "cache-control": "private, no-store",
+    "x-error-code": "INVALID_PARAMETER",
+    "x-request-id": "00000000000000000000000000000014",
+    "x-credits-cost": "1",
+    "x-quota-limit": "800",
+    "x-quota-remaining": "799"
+  },
+  "body": {
+    "error": {
+      "code": "INVALID_PARAMETER",
+      "message": "Unknown game \"one-piece\". Available: battlespirits, cyberpunk, digimon, dragoborne, dragonball-fw, dragonball-masters, fab, fftcg, fow, gundam, lorcana, onepiece, pokemon, riftbound, swdestiny, swu, vanguard, weissschwarz, yugioh.",
+      "details": {
+        "allowed": [
+          "battlespirits",
+          "cyberpunk",
+          "digimon",
+          "dragoborne",
+          "dragonball-fw",
+          "dragonball-masters",
+          "fab",
+          "fftcg",
+          "fow",
+          "gundam",
+          "lorcana",
+          "onepiece",
+          "pokemon",
+          "riftbound",
+          "swdestiny",
+          "swu",
+          "vanguard",
+          "weissschwarz",
+          "yugioh"
+        ],
+        "param": "game"
+      },
+      "request_id": "00000000000000000000000000000014"
+    }
+  }
+}

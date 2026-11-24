@@ -1,0 +1,77 @@
+{
+  "status": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "cache-control": "private, max-age=300",
+    "x-request-id": "0000000000000000000000000000001d",
+    "x-credits-cost": "4",
+    "x-quota-limit": "800",
+    "x-quota-remaining": "781",
+    "ratelimit-limit": "5",
+    "ratelimit-remaining": "4",
+    "ratelimit-reset": "1",
+    "etag": "\"pr1c3s-curr3nt\""
+  },
+  "body": {
+    "data": [
+      {
+        "id": "7a3d9e2b-5c1f-4b8a-9e6d-3f2a1c8b7e94",
+        "kind": "card",
+        "quotes": [
+          {
+            "source": "CARDMARKET",
+            "variant": "LOWEST_NEAR_MINT",
+            "language": "en",
+            "condition": "NEAR_MINT",
+            "printing": null,
+            "region": "EU",
+            "eu_only": false,
+            "price": {
+              "amount": 0.35,
+              "currency": "EUR"
+            },
+            "as_of": "2026-11-18"
+          },
+          {
+            "source": "TCGPLAYER",
+            "variant": "MARKET",
+            "language": "en",
+            "condition": null,
+            "printing": "NORMAL",
+            "region": null,
+            "eu_only": false,
+            "price": {
+              "amount": 0.41,
+              "currency": "USD"
+            },
+            "as_of": "2026-11-18"
+          }
+        ]
+      },
+      {
+        "id": "c4e1a9f3-2d7b-4c5e-8a1f-9b3d6e2c7a15",
+        "kind": "sealed",
+        "quotes": [
+          {
+            "source": "CARDMARKET",
+            "variant": "LOWEST",
+            "language": "en",
+            "condition": null,
+            "printing": null,
+            "region": "EU",
+            "eu_only": false,
+            "price": {
+              "amount": 289.0,
+              "currency": "EUR"
+            },
+            "as_of": "2026-11-18"
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "requested": 3,
+      "found": 2
+    }
+  }
+}

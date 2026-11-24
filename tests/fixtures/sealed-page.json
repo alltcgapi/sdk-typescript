@@ -1,0 +1,50 @@
+{
+  "status": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "cache-control": "public, max-age=60, s-maxage=300, stale-while-revalidate=600",
+    "x-request-id": "0000000000000000000000000000000a",
+    "x-credits-cost": "1",
+    "x-quota-limit": "800",
+    "x-quota-remaining": "790",
+    "ratelimit-limit": "5",
+    "ratelimit-remaining": "4",
+    "ratelimit-reset": "1",
+    "etag": "\"s34l3d\""
+  },
+  "body": {
+    "data": [
+      {
+        "id": "c4e1a9f3-2d7b-4c5e-8a1f-9b3d6e2c7a15",
+        "game": "onepiece",
+        "set": {
+          "id": "2c8e5f1a-7b3d-4a9e-8f2c-6d1b4e7a9c03",
+          "code": "OP01"
+        },
+        "sku": "OP01-BB-EN",
+        "kind": "BOOSTER_BOX",
+        "name": "Romance Dawn Booster Box",
+        "image_url": "https://media.alltcgapi.com/sealed/onepiece/OP01/booster-box-normal.webp?e=1764547200&s=Zm9yLWZpeHR1cmVzLW9ubHk",
+        "release_date": "2022-12-02",
+        "pack_count": 24,
+        "languages": [
+          "en"
+        ],
+        "external_ids": {
+          "cardmarket": 682401,
+          "tcgplayer": 450086
+        },
+        "version": 1,
+        "updated_at": "2026-11-18T22:21:15.182Z"
+      }
+    ],
+    "meta": {
+      "limit": 1,
+      "count": 1,
+      "has_more": false
+    },
+    "links": {
+      "next": null
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "name": "@alltcgapi/sdk",
+  "version": "0.1.0",
+  "description": "TypeScript client for the alltcgapi.com trading card game API: cards, sets, sealed products, current prices and price history for 19 games through one key and one response shape.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "sideEffects": false,
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "keywords": [
+    "tcg",
+    "trading-cards",
+    "trading-card-game",
+    "pokemon-tcg",
+    "yugioh",
+    "one-piece-card-game",
+    "lorcana",
+    "card-prices",
+    "api",
+    "sdk"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alltcgapi/sdk-typescript.git"
+  },
+  "homepage": "https://alltcgapi.com/docs?utm_source=npm&utm_medium=package&utm_campaign=sdk_typescript",
+  "bugs": {
+    "url": "https://github.com/alltcgapi/sdk-typescript/issues"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "prepublishOnly": "npm test",
+    "test": "npm run build && tsc -p tsconfig.tests.json && node --test \"tests/*.test.mjs\""
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.7",
+    "typescript": "^5.7.3"
+  }
+}

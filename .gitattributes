@@ -1,0 +1,9 @@
+* text=auto eol=lf
+
+# A file with a shebang and CRLF dies with "bad interpreter": the bin of the
+# package and the workflows stay LF on a Windows checkout too.
+*.ts   text eol=lf
+*.js   text eol=lf
+*.mjs  text eol=lf
+*.yml  text eol=lf
+*.yaml text eol=lf
