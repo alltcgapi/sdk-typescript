@@ -4,9 +4,8 @@
 # published by hand (`npm publish --access public`): a trusted publisher can only be attached to a
 # package that already exists.
 #
-# A tag does not put the version on the registry: it stages it. The trusted publisher of this
-# package allows `npm stage publish` only, so the version waits until a maintainer approves it on
-# npmjs.com (account settings, Staged Packages) with 2FA. Nothing reaches users without that step.
+# A tag publishes: the trusted publisher of this package allows `npm publish`, so the version is
+# on the registry when this workflow ends, with no human step in between. Tag only what is ready.
 name: Publish
 
 on:
@@ -24,7 +23,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          # npm >= 11.15.0 is what staged publishing needs; Node 24 ships it.
+          # npm >= 11.5.1 is what trusted publishing needs; Node 24 ships it.
           node-version: '24'
           registry-url: 'https://registry.npmjs.org'
       - name: Tag must match the package version
@@ -38,7 +37,7 @@ jobs:
           fi
       - run: npm ci
       - run: npm test
-      # `npm stage publish`, not `npm publish`: the trusted publisher refuses a direct publish.
-      # npm attaches the provenance statement by itself when the release comes through OIDC from
-      # a public repository, so there is no --provenance here.
-      - run: npm stage publish --access public
+      # --provenance is explicit on purpose: npm would attach the statement by itself on this
+      # path, but with the flag a release that cannot be attested fails instead of going out
+      # without one.
+      - run: npm publish --access public --provenance
